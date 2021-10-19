@@ -1,0 +1,6 @@
+.navegacion li {
+    display: inline;
+    width: 100px;
+    padding: 10px;
+    border: solid black 2px;
+}
