@@ -19,6 +19,7 @@ body{
                         ". contenido ."
                         "girl girl girl"
                         ". increible .";
+    
 }
 
 .increibles{
@@ -26,10 +27,16 @@ body{
 }
 .contenido{
     grid-area: contenido;
+
 }
 .girl{
     grid-area: girl;
 }
 .increible{
     grid-area: increible;
+}
+.contenido img{
+    display:block;
+    width: 50%;
+    margin: 0 auto;
 }
