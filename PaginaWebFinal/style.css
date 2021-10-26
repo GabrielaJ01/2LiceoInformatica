@@ -1,0 +1,42 @@
+.increibles li{
+    color: black;
+    font-size: large;
+    padding: auto;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    display: inline;
+    width: auto;
+    padding: 10px;
+    border: solid black 2px;
+    text-align: justify;
+}
+body{
+    text-align: justify;
+    display: grid;
+    grid-template-columns: auto 800px auto;
+    grid-template-rows: auto;
+    grid-template-areas: "increibles increibles increibles"
+                        ". contenido ."
+                        "girl girl girl"
+                        ". increible .";
+    
+}
+
+.increibles{
+    grid-area: increibles;
+}
+.contenido{
+    grid-area: contenido;
+
+}
+.girl{
+    grid-area: girl;
+}
+.increible{
+    grid-area: increible;
+}
+.contenido img{
+    display:block;
+    width: 50%;
+    margin: 0 auto;
+}
